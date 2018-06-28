@@ -160,7 +160,7 @@
 
                     <% for (Movimentacao mov : (List<Movimentacao>) request.getAttribute("extrato")) {%>
                     <li class="list-group-item d-flex justify-content-between bg-light">
-                        <span class="text-dark"><%= mov.getCriadoEm()%></span>
+                        <span class="text-dark"><%= StringUtil.dateToString(mov.getCriadoEm())%></span>
                         <%
                             String cpfLogado = (String) session.getAttribute("cpfLogado");
                             String color = "dark";
