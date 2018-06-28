@@ -1,15 +1,18 @@
-GRUPO
-Eduardo Lagoeiro
-Gabriel Guedine
-Jose Mauricio
+# GRUPO
+- Eduardo Lagoeiro
+- Gabriel Guedine
+- Jose Mauricio
 
-Instruções:
+# Instruções:
 
-CRIAR BANCO DE DADOS
+## Criar banco de dados
+
+```
 nome: sistema_bancario
 usuario: mauricio
 senha: 123456
+```
 
-Rodar script script.sql
+## Rodar script script.sql
 
-Rodar projeto no Netbeans
+## Rodar projeto no Netbeans
